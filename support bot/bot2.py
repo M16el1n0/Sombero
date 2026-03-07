@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ID администратора (замените на свой Telegram ID)
-ADMIN_ID = 8434813604  # Укажите ваш Telegram ID
+ADMIN_ID = 8524655218  # Укажите ваш Telegram ID
 
 # Инициализация базы данных
 def init_db():
@@ -248,4 +248,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
