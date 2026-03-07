@@ -11,7 +11,7 @@ from telegram.ext import (
 
 # ===================== НАСТРОЙКИ =====================
 BOT_TOKEN = "8701766372:AAErr0PtnGc_FEvUtvbSHTD8n6wXC6SXfU0"
-CHANNEL_ID = -1002000000000  # ← вставь числовой ID канала (узнать через @getidsbot)
+CHANNEL_ID = -1003301686749  # ← вставь числовой ID канала (узнать через @getidsbot)
 SUPER_ADMIN_IDS = [8434813604, 8524655218]
 OWNER_IDS = [8434813604, 8524655218]
 USERS_FILE = "allowed_users.json"
