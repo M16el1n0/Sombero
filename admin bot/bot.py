@@ -19,9 +19,9 @@ PLATFORMS_FILE = "platforms.json"
 TASKS_FILE = "active_tasks.json"
 
 # ── Ссылки для кнопок в канале ────────────────────────────────────────────
-URL_HOW_TO     = "https://ВАШ_ЛИНК"   # Как брать задания?
-URL_PAYMENTS   = "https://ВАШ_ЛИНК"   # Выплаты
-URL_SUPPORT    = "https://ВАШ_ЛИНК"   # Поддержка
+URL_HOW_TO     = "https://m16el1n0.github.io/sayt_sombero/"   # Как брать задания?
+URL_PAYMENTS   = "https://t.me/SomberoPay"   # Выплаты
+URL_SUPPORT    = "https://t.me/podderzhka_sombero_bot"   # Поддержка
 # ─────────────────────────────────────────────────────────────────────────
 
 # Дефолтные платформы с фиксированными ценами
