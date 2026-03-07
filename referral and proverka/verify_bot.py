@@ -25,9 +25,10 @@ BOT_TOKEN  = "8641784281:AAHPBxOWV11o-l_40dVt-Ic2LgN_BiGEe5s"
 CHANNEL_ID = -1003301686749   # ← числовой ID канала (@getidsbot)
 
 # ── Общие файлы с реферальным ботом (должны быть в одной папке) ──
-USERS_FILE  = "ref_users.json"
-JOINED_FILE = "ref_joined.json"   # invite_url -> [uid, uid, ...]  антифрод
-LINKS_FILE  = "ref_links.json"    # uid_реферера -> invite_url
+DATA_DIR      = "/data"
+USERS_FILE    = f"{DATA_DIR}/ref_users.json"
+LINKS_FILE    = f"{DATA_DIR}/ref_links.json"
+JOINED_FILE   = f"{DATA_DIR}/ref_joined.json"
 
 REFERRAL_REWARD = 1    # должно совпадать с настройкой в referral_bot.py
 HOLD_HOURS      = 24
