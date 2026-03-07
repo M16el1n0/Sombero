@@ -19,11 +19,12 @@ WEBSITE_URL     = "https://m16el1n0.github.io/sayt_sombero/"            # ← з
 HOLD_FAQ_URL    = "https://m16el1n0.github.io/sayt_sombero/"   # ← страница «что такое холд»
 SUPPORT_USERNAME = "@podderzhka_sombero_bot"                       # ← поддержка
 
-USERS_FILE    = "ref_users.json"
-WITHDRAW_FILE = "ref_withdrawals.json"
-COUNTER_FILE  = "ref_counter.json"
-LINKS_FILE    = "ref_links.json"       # uid -> personal invite link url
-JOINED_FILE   = "ref_joined.json"      # invite_link_url -> [uid, uid, ...]  (антифрод)
+DATA_DIR      = "/data"
+USERS_FILE    = f"{DATA_DIR}/ref_users.json"
+WITHDRAW_FILE = f"{DATA_DIR}/ref_withdrawals.json"
+COUNTER_FILE  = f"{DATA_DIR}/ref_counter.json"
+LINKS_FILE    = f"{DATA_DIR}/ref_links.json"
+JOINED_FILE   = f"{DATA_DIR}/ref_joined.json"
 
 REFERRAL_REWARD  = 1      # ₽ за каждого вступившего
 HOLD_HOURS       = 24     # часов до разморозки
